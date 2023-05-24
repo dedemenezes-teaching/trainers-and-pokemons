@@ -9,6 +9,7 @@ class TrainersController < ApplicationController
   # GET /trainers/1
   def show
     # @trainer = Trainer.find(params[:id]) #=> before_action
+
     @pokemon = Pokemon.new
   end
 
